@@ -1,0 +1,81 @@
+#textarea {
+    width: 100%;
+    height: 100%;
+    // border: 1px solid black;
+    background: transparent;
+}
+
+#textarea1 {
+    width: 100%;
+    height: 100%;
+    // border: 1px solid black;
+    background: transparent;
+}
+
+.screen {
+    background-size: cover;
+    overflow-y: auto;
+}
+
+.screen_1 {
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    background-size: cover;
+}
+
+.tab {
+    background: url('../../assets/images/TS_BORDER.png') no-repeat center center;
+}
+
+#tsxx {
+    height: 18%;
+    border: 2px #da971b;
+    margin: 5px;
+    padding: 5px;
+    border-style: dashed;
+}
+
+.textAreaxx {
+    line-height: 1.3;
+    overflow: auto;
+}
+
+.textAreax1 {
+    border: 2px #db741f;
+    height: 100%;
+    padding: 5px;
+    border-style: dashed;
+    line-height: 1.3;
+    overflow: auto;
+}
+
+@keyframes blink {
+    0% {
+        color: black;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.blink {
+    animation: blink 1s infinite;
+}
+
+.guicheng {
+    height: 100%;
+    width: 60%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+// #textArea2,
+// #textArea3 {
+//     background: linear-gradient(to bottom right, rgb(67, 157, 231), white);
+// }

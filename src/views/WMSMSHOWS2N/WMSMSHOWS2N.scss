@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'AlimamaShuHeiTiBold';
+    src: url('../../assets/font/Alimama_ShuHeiTi_Bold.ttf') format('truetype');
+}
+
+#root {
+  
+    //background: lightcoral;
+   
+    background: url(../../assets/images/backGround.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: auto;
+  
+}
+
+header {
+  
+    background: url(../../assets/images/headTitle.png) no-repeat center center;
+    background-size: cover;
+
+}
+
+.title {
+    font-family: 'AlimamaShuHeiTiBold', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    background: linear-gradient(#ffffff, #77CDF9);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.example {
+
+
+    font-size: 15pt;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.example_content {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 50px;
+}
+
+.colorBox {
+    align-items: center;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
+
+.mainbox {
+   
+    display: flex;
+}
+.mainbox .column{
+    
+    //padding:  50px;
+    
+}
+

@@ -1,0 +1,32 @@
+#textarea {
+    width: 100%;
+    height: 100%;
+   // border: 1px solid black;
+   background: transparent;
+ 
+  
+}
+
+#textarea1 {
+    width: 100%;
+    height: 100%;
+    // border: 1px solid black;
+    background: transparent;
+
+
+}
+
+.screen {
+    background: url('../../assets/images/TS_BACKGROUND.jpg') no-repeat center center;
+    background-size: cover;
+    overflow-y: auto;
+}
+
+.screen_1 {
+    height: 100%;
+    width: 100%;
+    padding: 80px;
+    background: url('../../assets/images/TS_BORDER.png') no-repeat center center;
+    background-size: cover;
+    line-height: 1.5;
+}

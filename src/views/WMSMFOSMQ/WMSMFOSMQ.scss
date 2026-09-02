@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'AlibabaPuHuiTiBold';
+    src: url('../../assets/font/Alibaba-PuHuiTi-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTiMedium';
+    src: url('../../assets/font/Alibaba-PuHuiTi-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: '优设';
+    src: url('../../assets/font/优设标题黑.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('../../assets/font/DIN.TTF') format('truetype');
+}
+.backGround_q {
+
+    width: 1820px;
+    height: 880px;
+    background: url(../../assets/images/Module_border.png) no-repeat center center;
+    background-size: cover;
+    box-shadow: 0 0 5px 1px #999
+}
+
+.border {
+    width: 55px;
+    height: 55px;
+    margin-left: 30px;
+    //background-color: white;
+    background: url(../../assets/images/边框元素.png) no-repeat center center;
+    background-size: cover;
+
+}
+
+.head_q {
+    background: linear-gradient(to right, #0E4085, #0D2B5F);
+}
+
+.title_q {
+    font-family: 'AlibabaPuHuiTiBold', sans-serif;
+    font-size: 28pt;
+    font-weight: bold;
+    background: linear-gradient(#ffffff, #00aeff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.q_title_1 {
+    font-family: 'AlibabaPuHuiTiMedium', sans-serif;
+    font-size: 21pt;
+
+    color: #ffffff;
+   
+}
+.q_title_2 {
+    font-family: 'AlibabaPuHuiTiMedium', sans-serif;
+    font-size: 21pt;
+
+    color: #ffffff;
+
+}
+.q_title_3 {
+    text-align: center;
+    font-family: 'AlibabaPuHuiTiMedium', sans-serif;
+    font-size: 32pt;
+    color: #ffffff;
+}
+
+.q_title_4 {
+
+    font-family: 'DIN', sans-serif;
+    font-size: 35pt;
+    color: #ffffff;
+}
+
+.q_title_5 {
+
+    font-family: 'DIN', sans-serif;
+    font-size: 24pt;
+    color: #ffffff;
+}

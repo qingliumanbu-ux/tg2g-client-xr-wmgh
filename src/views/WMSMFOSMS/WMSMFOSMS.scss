@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'AlibabaPuHuiTiBold';
+    src: url('../../assets/font/Alibaba-PuHuiTi-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTiMedium';
+    src: url('../../assets/font/Alibaba-PuHuiTi-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: '优设';
+    src: url('../../assets/font/优设标题黑.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DIN';
+    src: url('../../assets/font/DIN.TTF') format('truetype');
+}
+
+.backGround_s {
+
+    width: 1820px;
+    height: 880px;
+    background: url(../../assets/images/Module_border.png) no-repeat center center;
+    background-size: cover;
+    box-shadow: 0 0 5px 1px #999
+}
+
+.border {
+    width: 55px;
+    height: 55px;
+    margin-left: 30px;
+    //background-color: white;
+    background: url(../../assets/images/边框元素.png) no-repeat center center;
+    background-size: cover;
+
+}
+
+.head_s {
+    background: linear-gradient(to right, #0E4085, #0D2B5F);
+}
+
+.title_s {
+    font-family: 'AlibabaPuHuiTiBold', sans-serif;
+    font-size: 28pt;
+    font-weight: bold;
+    background: linear-gradient(#ffffff, #00aeff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.s_title_1 {
+    font-family: 'AlibabaPuHuiTiMedium', sans-serif;
+    font-size: 24pt;
+
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.s_title_2 {
+    font-family: 'AlibabaPuHuiTiMedium', sans-serif;
+    font-size: 21pt;
+
+    color: #ffffff;
+
+}
+
+#t_s_1,
+#t_s_3 {
+    height: 90%;
+    background: url(../../assets/images/元素1.png) no-repeat center center;
+    background-size: contain;
+}
+
+.s_num {
+    text-align: center;
+    font-family: '优设', sans-serif;
+    font-size: 55pt;
+    background: linear-gradient(#ffffff, #00aeff);
+
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.s_text {
+    text-align: center;
+    font-family: 'AlibabaPuHuiTiMedium', sans-serif;
+    font-size: 24pt;
+
+
+
+    color: #ffffff;
+}
+
+.s_title_3 {
+    text-align: center;
+    font-family: 'AlibabaPuHuiTiMedium', sans-serif;
+    font-size: 32pt;
+    color: #ffffff;
+}
+
+.s_title_4 {
+
+    font-family: 'DIN', sans-serif;
+    font-size: 35pt;
+    color: #ffffff;
+}
+
+.s_title_5 {
+
+    font-family: 'DIN', sans-serif;
+    font-size: 24pt;
+    color: #ffffff;
+}
+
+.g-progress {
+    width: 520px;
+    height: 7px;
+    margin: 5px;
+    position: relative;
+
+
+    //background: linear-gradient(90deg, #0f0, #0ff var(--progress), transparent 0);
+    background-color: rgba(71, 151, 201, 0.15);
+    border: 1px solid;
+}
+
+.circle {
+    height: 12px;
+    width: 12px;
+    top: -3px;
+    left: -2px;
+    border-radius: 50%;
+    position: absolute;
+    //background: radial-gradient(#ffffff 0%, cyan 50%, transparent 100%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    /* 设置网格间隔 */
+}
+
+.grid-item {
+
+
+    text-align: center;
+    padding: 10px;
+}
+
+.s_tag {
+
+    width: 50px;
+    height: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.s_tag_1 {
+    width: 3px;
+    height: 15px;
+    left: -2px;
+    top: 2px;
+    position: absolute;
+}
+
+.s_num_per {
+    text-align: center;
+    font-family: '优设', sans-serif;
+    font-size: 40pt;
+    background: linear-gradient(#ffffff, #00aeff);
+
+    -webkit-background-clip: text;
+    color: transparent;
+}

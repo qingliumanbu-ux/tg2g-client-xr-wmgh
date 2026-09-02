@@ -1,0 +1,13 @@
+.Box {
+  display: flex;
+  flex-flow: wrap;
+}
+.Box1 {
+  z-index: 1001;
+  position: absolute;
+}
+.screen {
+    // background-size: cover;
+    background-color: #1447be;
+    // overflow-y: auto;
+}
